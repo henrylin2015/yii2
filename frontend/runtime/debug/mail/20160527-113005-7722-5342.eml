@@ -1,0 +1,23 @@
+Message-ID: <16660eac33cd7843793690425740af5c@127.0.0.1>
+Date: Fri, 27 May 2016 11:30:05 +0800
+Subject: Message subject
+From: 462211958@qq.com
+To: lin_hailing@sina.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1464319805_9a348333ee6d8880acc98282d6aca203_=_"
+
+
+--_=_swift_v4_1464319805_9a348333ee6d8880acc98282d6aca203_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Plain text content
+
+--_=_swift_v4_1464319805_9a348333ee6d8880acc98282d6aca203_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<b>HTML content</b>
+
+--_=_swift_v4_1464319805_9a348333ee6d8880acc98282d6aca203_=_--
