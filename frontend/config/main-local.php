@@ -7,6 +7,7 @@ $config = [
             'cookieValidationKey' => 'CIwICxMygGZq-ZF3Njk9B7-qzZzkd33_',
         ],
         'defaultRoute' => 'welcome',
+        'langause'=>'zh_CN',
     ],
 ];
 

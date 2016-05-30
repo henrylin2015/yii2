@@ -35,5 +35,19 @@ return [
                 'from'=>['henrylin2015@163.com'=>'admin']
             ],
         ],
+         'i18n' => [
+            'translations' => [
+                'app*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'basePath' => '@common/messages',
+                    //'sourceLanguage' => 'en-US',
+                    /**
+                    'fileMap' => [
+                        'app' => 'app.php',
+                    ],
+                    */
+                ],
+            ],
+        ],
     ],
 ];

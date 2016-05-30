@@ -9,7 +9,9 @@ use yii\web\Controller;
  */
 class BaseController extends Controller{
     public function init(){
-        //echo "init ...<br>";
+        //Yii::$app->language = 'zh-CN';
+        Yii::$app->language = 'en-US';
+        //echo "init ...<br>";i
         //public $layout = false;
         //$this->layout = false;
     }

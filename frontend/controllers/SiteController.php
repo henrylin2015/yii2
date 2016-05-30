@@ -12,7 +12,7 @@ use common\models\Country;
 class SiteController extends BaseController
 {
     public function actionIndex($mes="hello"){
-        Tools::test();
+        //Tools::test();
         return $this->render("index",['mes'=>$mes]);
     }
     public function actionCountry(){
