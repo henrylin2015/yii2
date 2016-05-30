@@ -1579,3 +1579,2841 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1464332650.802
     'REQUEST_TIME' => 1464332650
 ]
+2016-05-30 13:37:50 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Users/xiaolin/Sites/tmp/yii2/backend/views/site/index.php' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/xiaolin/...', Array, Object(backend\controllers\SiteController))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/controllers/SiteController.php(58): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:37:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '53586'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464586669.809
+    'REQUEST_TIME' => 1464586669
+]
+2016-05-30 13:37:54 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Users/xiaolin/Sites/tmp/yii2/backend/views/site/index.php' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/xiaolin/...', Array, Object(backend\controllers\SiteController))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/controllers/SiteController.php(58): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:37:54 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '53587'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464586674.681
+    'REQUEST_TIME' => 1464586674
+]
+2016-05-30 13:39:17 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Users/xiaolin/Sites/tmp/yii2/backend/views/site/index.php' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/xiaolin/...', Array, Object(backend\controllers\SiteController))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/controllers/SiteController.php(58): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:39:17 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '53649'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464586757.736
+    'REQUEST_TIME' => 1464586757
+]
+2016-05-30 13:40:02 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Users/xiaolin/Sites/tmp/yii2/backend/views/site/index.php' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/xiaolin/...', Array, Object(backend\controllers\SiteController))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/controllers/SiteController.php(58): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:40:02 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '53681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464586802.006
+    'REQUEST_TIME' => 1464586802
+]
+2016-05-30 13:40:17 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Users/xiaolin/Sites/tmp/yii2/backend/views/site/index.php' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/xiaolin/...', Array, Object(backend\controllers\SiteController))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/controllers/SiteController.php(58): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:40:17 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '53690'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464586817.38
+    'REQUEST_TIME' => 1464586817
+]
+2016-05-30 13:40:19 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Users/xiaolin/Sites/tmp/yii2/backend/views/site/index.php' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/xiaolin/...', Array, Object(backend\controllers\SiteController))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/controllers/SiteController.php(58): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:40:19 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '53691'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464586819.732
+    'REQUEST_TIME' => 1464586819
+]
+2016-05-30 13:40:21 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Users/xiaolin/Sites/tmp/yii2/backend/views/site/index.php' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/xiaolin/...', Array, Object(backend\controllers\SiteController))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/controllers/SiteController.php(58): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:40:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '53692'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464586821.558
+    'REQUEST_TIME' => 1464586821
+]
+2016-05-30 13:52:29 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 13:52:29 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '53993'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587549.599
+    'REQUEST_TIME' => 1464587549
+]
+2016-05-30 13:52:33 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 13:52:33 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'admin'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '53994'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587553.046
+    'REQUEST_TIME' => 1464587553
+]
+2016-05-30 13:57:00 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/route', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:00 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'admin/route'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54056'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/route'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin/route'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587820.606
+    'REQUEST_TIME' => 1464587820
+]
+2016-05-30 13:57:01 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('toolbar', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('debug/default/t...', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:01 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'debug/default/toolbar'
+    'tag' => '574bd62cbdc4b'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=admin/route'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54056'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=debug%2Fdefault%2Ftoolbar&tag=574bd62cbdc4b'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=debug%2Fdefault%2Ftoolbar&tag=574bd62cbdc4b'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587821.395
+    'REQUEST_TIME' => 1464587821
+]
+2016-05-30 13:57:08 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/route', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:08 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'admin/route'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54065'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/route'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin/route'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587828.121
+    'REQUEST_TIME' => 1464587828
+]
+2016-05-30 13:57:08 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('toolbar', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('debug/default/t...', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:08 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'debug/default/toolbar'
+    'tag' => '574bd63421441'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=admin/route'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54066'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=debug%2Fdefault%2Ftoolbar&tag=574bd63421441'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=debug%2Fdefault%2Ftoolbar&tag=574bd63421441'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587828.406
+    'REQUEST_TIME' => 1464587828
+]
+2016-05-30 13:57:10 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/route', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:10 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'admin/route'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54066'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/route'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin/route'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587830.363
+    'REQUEST_TIME' => 1464587830
+]
+2016-05-30 13:57:10 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('toolbar', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('debug/default/t...', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:10 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'debug/default/toolbar'
+    'tag' => '574bd6365c4e5'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=admin/route'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54065'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=debug%2Fdefault%2Ftoolbar&tag=574bd6365c4e5'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=debug%2Fdefault%2Ftoolbar&tag=574bd6365c4e5'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587830.598
+    'REQUEST_TIME' => 1464587830
+]
+2016-05-30 13:57:48 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/route', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:48 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'admin/route'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54080'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/route'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin/route'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587868.744
+    'REQUEST_TIME' => 1464587868
+]
+2016-05-30 13:57:49 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('toolbar', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('debug/default/t...', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:49 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'debug/default/toolbar'
+    'tag' => '574bd65ce1d2b'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=admin/route'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54080'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=debug%2Fdefault%2Ftoolbar&tag=574bd65ce1d2b'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=debug%2Fdefault%2Ftoolbar&tag=574bd65ce1d2b'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587869.258
+    'REQUEST_TIME' => 1464587869
+]
+2016-05-30 13:57:51 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/route', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:51 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'admin/route'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54080'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/route'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin/route'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587871.377
+    'REQUEST_TIME' => 1464587871
+]
+2016-05-30 13:57:51 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php:88
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/components/AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(606): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('toolbar', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('debug/default/t...', Array)
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-30 13:57:51 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'debug/default/toolbar'
+    'tag' => '574bd65f5f586'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=admin/route'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54081'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=debug%2Fdefault%2Ftoolbar&tag=574bd65f5f586'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=debug%2Fdefault%2Ftoolbar&tag=574bd65f5f586'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464587871.633
+    'REQUEST_TIME' => 1464587871
+]
+2016-05-30 14:00:25 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "use".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('use', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:00:25 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'use'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54128'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=use'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=use'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464588025.723
+    'REQUEST_TIME' => 1464588025
+]
+2016-05-30 14:00:28 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:00:28 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54127'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464588028.851
+    'REQUEST_TIME' => 1464588028
+]
+2016-05-30 14:00:31 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:00:31 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54127'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464588031.81
+    'REQUEST_TIME' => 1464588031
+]
+2016-05-30 14:08:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:08:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\helper\Url' not found' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:39
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 14:08:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54769'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464588504.721
+    'REQUEST_TIME' => 1464588504
+]
+2016-05-30 14:08:28 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\helper\Url' not found' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:39
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 14:08:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54770'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464588507.953
+    'REQUEST_TIME' => 1464588507
+]
+2016-05-30 14:08:32 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\helper\Url' not found' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:39
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 14:08:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54771'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464588512.186
+    'REQUEST_TIME' => 1464588512
+]
+2016-05-30 14:12:06 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:12:06 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54832'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464588726.269
+    'REQUEST_TIME' => 1464588726
+]
+2016-05-30 14:12:09 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:12:09 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54836'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464588729.909
+    'REQUEST_TIME' => 1464588729
+]
+2016-05-30 14:16:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:16:56 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'parse error, expecting `']''' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:50
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 14:16:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54917'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464589016.192
+    'REQUEST_TIME' => 1464589016
+]
+2016-05-30 14:17:17 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:17:17 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54924'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464589037.227
+    'REQUEST_TIME' => 1464589037
+]
+2016-05-30 14:38:15 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:38:15 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '55251'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464590295.047
+    'REQUEST_TIME' => 1464590295
+]
+2016-05-30 14:38:17 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:38:17 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '55253'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464590297.843
+    'REQUEST_TIME' => 1464590297
+]
+2016-05-30 14:38:20 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user".' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-30 14:38:20 [127.0.0.1][1][d61h5f4nk69tn4sahdcbva9aq2][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '55256'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464590300.048
+    'REQUEST_TIME' => 1464590300
+]
+2016-05-30 14:39:14 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'backend\controllers\UserController' in file: /Users/xiaolin/Sites/tmp/yii2/backend/controllers/UserController.php. Namespace missing?' in /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\control...')
+#1 [internal function]: spl_autoload_call('backend\\control...')
+#2 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(562): class_exists('backend\\control...')
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(520): yii\base\Module->createControllerByID('user')
+#4 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(448): yii\base\Module->createController('user')
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user', Array)
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-05-30 14:39:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '55268'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=user'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464590354.589
+    'REQUEST_TIME' => 1464590354
+]
+2016-05-30 15:51:02 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'parse error' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 15:51:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/route/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=welcome%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '56680'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Froute%2Findex'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin%2Froute%2Findex'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464594661.696
+    'REQUEST_TIME' => 1464594661
+]
+2016-05-30 15:51:33 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'parse error' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 15:51:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/route/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=welcome%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '56687'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Froute%2Findex'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin%2Froute%2Findex'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464594693.048
+    'REQUEST_TIME' => 1464594693
+]
+2016-05-30 15:51:35 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'parse error' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 15:51:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/route/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=welcome%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '56689'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Froute%2Findex'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin%2Froute%2Findex'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464594695.679
+    'REQUEST_TIME' => 1464594695
+]
+2016-05-30 15:52:08 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'parse error' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 15:52:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/route/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=welcome%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '56693'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Froute%2Findex'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin%2Froute%2Findex'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464594728.904
+    'REQUEST_TIME' => 1464594728
+]
+2016-05-30 15:53:07 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'The use statement with non-compound name 'Yii' has no effect' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:2
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(325): yii\base\ErrorHandler->handleError(2, 'The use stateme...', '/Users/xiaolin/...', 2, Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(325): yii\base\View::renderPhpFile()
+#2 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Users/xiaolin/...', Array)
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/xiaolin/...', Array, NULL)
+#4 /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/main.php(51): yii\base\View->render('left.php', Array)
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(325): require('/Users/xiaolin/...')
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Users/xiaolin/...', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/Users/xiaolin/...', Array, Object(mdm\admin\controllers\RouteController))
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<h1>Routes</h1>...')
+#9 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/controllers/RouteController.php(39): yii\base\Controller->render('index', Array)
+#10 [internal function]: mdm\admin\controllers\RouteController->actionIndex()
+#11 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#14 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/route/ind...', Array)
+#15 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#17 {main}
+2016-05-30 15:53:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/route/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=welcome%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '56791'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Froute%2Findex'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin%2Froute%2Findex'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464594786.572
+    'REQUEST_TIME' => 1464594786
+]
+2016-05-30 15:53:26 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'The use statement with non-compound name 'Yii' has no effect' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:2
+Stack trace:
+#0 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(325): yii\base\ErrorHandler->handleError(2, 'The use stateme...', '/Users/xiaolin/...', 2, Array)
+#1 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(325): yii\base\View::renderPhpFile()
+#2 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Users/xiaolin/...', Array)
+#3 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Users/xiaolin/...', Array, NULL)
+#4 /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/main.php(51): yii\base\View->render('left.php', Array)
+#5 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(325): require('/Users/xiaolin/...')
+#6 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Users/xiaolin/...', Array)
+#7 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/Users/xiaolin/...', Array, Object(mdm\admin\controllers\RouteController))
+#8 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<h1>Routes</h1>...')
+#9 /Users/xiaolin/Sites/tmp/yii2/vendor/mdmsoft/yii2-admin/controllers/RouteController.php(39): yii\base\Controller->render('index', Array)
+#10 [internal function]: mdm\admin\controllers\RouteController->actionIndex()
+#11 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#14 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/route/ind...', Array)
+#15 /Users/xiaolin/Sites/tmp/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Users/xiaolin/Sites/tmp/yii2/backend/web/index.php(18): yii\base\Application->run()
+#17 {main}
+2016-05-30 15:53:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/route/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=welcome%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '56796'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Froute%2Findex'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin%2Froute%2Findex'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464594805.127
+    'REQUEST_TIME' => 1464594805
+]
+2016-05-30 15:58:59 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'parse error' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 15:58:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/route/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=welcome%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '56874'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Froute%2Findex'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin%2Froute%2Findex'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464595138.052
+    'REQUEST_TIME' => 1464595138
+]
+2016-05-30 15:59:13 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'parse error' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 15:59:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/route/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=welcome%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '56880'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Froute%2Findex'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin%2Froute%2Findex'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464595153.592
+    'REQUEST_TIME' => 1464595153
+]
+2016-05-30 15:59:16 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'parse error' in /Users/xiaolin/Sites/tmp/yii2/backend/views/layouts/left.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-30 15:59:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/route/index'
+]
+
+$_COOKIE = [
+    'csrftoken' => 'agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG'
+    '_pk_id_1_dc78' => '51a130e715193fdb.1460686668.2.1460941462.1460941462.'
+    'lang' => 'us_en'
+    'mrd_cro' => '4'
+    'mrd_pharma' => '13'
+    'mrd_drug' => '9'
+    'mrd_site' => '17'
+    'mrd_doctor' => '19'
+    'mrd_trial' => '7'
+    'mrd_reg' => '12'
+    'PHPSESSID' => 'd61h5f4nk69tn4sahdcbva9aq2'
+    '_identity' => '55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK\",2592000]\";}'
+    '_csrf' => 'dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/tmp/yii2/backend/web/index.php?r=welcome%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4'
+    'HTTP_COOKIE' => 'csrftoken=agXGVLvHbFfRLCKvU6yDB8JEkkDcR2DG; _pk_id.1.dc78=51a130e715193fdb.1460686668.2.1460941462.1460941462.; lang=us_en; mrd_cro=4; mrd_pharma=13; mrd_drug=9; mrd_site=17; mrd_doctor=19; mrd_trial=7; mrd_reg=12; PHPSESSID=d61h5f4nk69tn4sahdcbva9aq2; _identity=55ae94d6be2961c9172794d1d9bfc5ce59386912331e0182598ab33a1fee04eaa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22jqv2WK_X_nFCiglE_wrB0LngsLQQIdKK%22%2C2592000%5D%22%3B%7D; _csrf=dbc4b374d2841aa487198872caaf5d60215a5a853684a19274dcf33d1801e2b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EqQ2xha4czIrFixukGfZ-P5dV2QcjEjO%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/xiaolin/Sites'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Users/xiaolin/Sites/tmp/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '56881'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Froute%2Findex'
+    'REQUEST_URI' => '/tmp/yii2/backend/web/index.php?r=admin%2Froute%2Findex'
+    'SCRIPT_NAME' => '/tmp/yii2/backend/web/index.php'
+    'PHP_SELF' => '/tmp/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464595156.769
+    'REQUEST_TIME' => 1464595156
+]

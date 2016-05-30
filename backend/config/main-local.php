@@ -7,7 +7,7 @@ $config = [
             'cookieValidationKey' => 'ofxK8uzl3JIzz2S275RLeBg5HX6LQvk7',
         ],
     ],
-    'defaultRoute' => 'welcome',
+    'defaultRoute' => 'site',
 ];
 
 if (!YII_ENV_TEST) {
